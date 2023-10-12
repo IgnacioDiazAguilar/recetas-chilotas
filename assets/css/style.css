@@ -1,0 +1,61 @@
+/* FUENTES */
+@font-face{
+    font-family: Normal;
+    src: url("NunitoSans_7pt-Regular.ttf");
+}
+
+@font-face{
+    font-family: Grueso;
+    src: url(NunitoSans_7pt-ExtraBold.ttf);
+}
+
+/* NAVBAR */
+.navbar{
+    background-color: #EDE7E2;
+}
+/* FUENTE NAVBAR */
+.navbar a{
+    font-family: Normal, serif;
+    font-size: 1rem;
+    color: #462005;
+}
+/* HOVER NAVBAR */
+.navbar a:hover{
+    font-weight: bold;
+    color: #FF7043;
+}
+/* BUSCADOR */
+.form-control{
+    width: 37rem;
+    border-color: #FF7043;
+    border-width: 0.13rem;
+}
+/* BOTÓN BUSCADOR */
+.btn{
+    font-family: Normal, serif;
+    font-weight: 400;
+    font-size: 1.050rem;
+    color: #FF7043;
+    border-color: #FF7043;
+}
+/* HOVER BOTON BUSCADOR */
+.btn:hover{
+    color: white;
+    background-color: #FF7043;
+    border-color: #FF7043;
+}
+
+
+
+
+.seccion-1{
+    background-color: #ffffff;
+    height: 75rem;
+}
+
+.titulo-1{
+    font-family: Grueso, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #462005;
+}

@@ -15,6 +15,11 @@
 }
 
 @font-face{
+    font-family: Delgado;
+    src: url("NunitoSans_7pt-Light.ttf");
+}
+
+@font-face{
     font-family: Grueso;
     src: url(NunitoSans_7pt-ExtraBold.ttf);
 }
@@ -24,6 +29,7 @@
 /* NAVBAR */
 .navbar{
     background-color: var(--color-fondo-desierto);
+    box-shadow: 0 0 4px 0;
 }
 
 /* FUENTE NAVBAR */
@@ -60,13 +66,39 @@
 
 
 
-.seccion-1{
+.seccion-ofrecer{
     background-color: var(--color-fondo);
     height: 75rem;
 }
 
-.titulo-1{
+.seccion-ofrecer h1{
     font-family: Grueso, serif;
     font-size: 2rem;
     color: var(--color-letra-normal);
+}
+
+.seccion-ofrecer p{
+    font-family: Delgado, serif;
+    color: var(--color-letra-normal);
+    font-size: 1.5rem;
+}
+
+.seccion-ofrecer h2{
+    font-family: Normal, serif;
+    font-size: 1.5rem;
+}
+
+.seccion-ofrecer img{
+    border-radius: 1rem;
+    height: 260px;
+    width: auto;
+}
+
+.seccion-ofrecer a{
+    text-decoration: none;
+    color: var(--color-letra-normal)
+}
+
+.seccion-ofrecer a:hover{
+    text-decoration: underline;
 }

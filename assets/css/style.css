@@ -21,7 +21,7 @@
 
 @font-face{
     font-family: Grueso;
-    src: url(NunitoSans_7pt-ExtraBold.ttf);
+    src: url("NunitoSans_7pt-ExtraBold.ttf");
 }
 
 
@@ -29,7 +29,7 @@
 /* NAVBAR */
 .navbar{
     background-color: var(--color-fondo-desierto);
-    box-shadow: 0 0 4px 0;
+    box-shadow: 0 0 0.25rem 0;
 }
 
 /* FUENTE NAVBAR */
@@ -44,20 +44,20 @@
     color: var(--color-destacado);
 }
 /* BUSCADOR */
-.form-control{
+.navbar input{
     width: 37rem;
     border-color: var(--color-destacado);
     border-width: 0.13rem;
 }
 /* BOTÓN BUSCADOR */
-.btn{
+.navbar button{
     font-family: Normal, serif;
     font-size: 1.050rem;
     color: var(--color-destacado);
     border-color: var(--color-destacado);
 }
 /* HOVER BOTON BUSCADOR */
-.btn:hover{
+.navbar button:hover{
     color: var(--color-fondo);
     background-color: var(--color-destacado);
     border-color: var(--color-destacado);
@@ -65,40 +65,88 @@
 
 
 
-
-.seccion-ofrecer{
+/* SECCION BIENVENIDA */
+.seccion-bienvenida{
     background-color: var(--color-fondo);
-    height: 75rem;
+    height: 29.4rem;
+}
+/* TITULO BIENVENIDA */
+.seccion-bienvenida h1{
+    font-family: Grueso, sans-serif;
+    font-size: 3rem;
+    line-height: 4rem;
+    color: var(--color-letra-normal);
+    margin-top: 3.25rem;
+    margin-left: 6.25rem;
+}
+/* TEXTO BIENVENIDA */
+.seccion-bienvenida p{
+    font-family: Delgado, serif;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: var(--color-letra-normal);
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+/* BOTON BIENVENIDA */
+.seccion-bienvenida a{
+    font-family: Normal, serif;
+    font-size: 1.050rem;
+    color: var(--color-destacado);
+    border-color: var(--color-destacado);
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
+/* HOVER BOTON BIENVENIDA */
+.seccion-bienvenida a:hover{
+    color: var(--color-fondo);
+    background-color: var(--color-destacado);
+    border-color: var(--color-destacado);
+}
+/* IMAGEN BIENVENIDA */
+.seccion-bienvenida img{
+    height: 24rem;
+    width: auto;
+    margin-top: 2.5rem;
+    box-shadow: 0.25rem 0.25rem 0.25rem 0;
 }
 
+
+
+/* SECCION OFRECER */
+.seccion-ofrecer{
+    background: linear-gradient(var(--color-fondo-desierto),var(--color-fondo));
+    height: 27rem;
+}
+/* TITULO OFRECER */
 .seccion-ofrecer h1{
     font-family: Grueso, serif;
     font-size: 2rem;
     color: var(--color-letra-normal);
 }
-
+/* TEXTO OFRECER */
 .seccion-ofrecer p{
     font-family: Delgado, serif;
     color: var(--color-letra-normal);
     font-size: 1.5rem;
 }
-
+/* LEYENDAS OFRECER */
 .seccion-ofrecer h2{
     font-family: Normal, serif;
     font-size: 1.5rem;
 }
-
+/* IMAGENES OFRECER */
 .seccion-ofrecer img{
-    border-radius: 1rem;
-    height: 260px;
+    border-radius: 0.5rem;
+    height: 16.25rem;
     width: auto;
 }
-
+/* LINKS OFRECER */
 .seccion-ofrecer a{
     text-decoration: none;
     color: var(--color-letra-normal)
 }
-
+/* LINKS HOVER OFRECER */
 .seccion-ofrecer a:hover{
     text-decoration: underline;
 }

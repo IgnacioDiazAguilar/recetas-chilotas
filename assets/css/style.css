@@ -18,11 +18,11 @@
     font-family: Delgado;
     src: url("NunitoSans_7pt-Light.ttf");
 }
-
 @font-face{
     font-family: Grueso;
     src: url("NunitoSans_7pt-ExtraBold.ttf");
 }
+
 
 
 
@@ -68,7 +68,7 @@
 /* SECCION BIENVENIDA */
 .seccion-bienvenida{
     background-color: var(--color-fondo);
-    height: 29.4rem;
+    height: 37.5rem;
 }
 /* TITULO BIENVENIDA */
 .seccion-bienvenida h1{
@@ -76,8 +76,8 @@
     font-size: 3rem;
     line-height: 4rem;
     color: var(--color-letra-normal);
-    margin-top: 3.25rem;
-    margin-left: 6.25rem;
+    margin-top: 7.25rem;
+    margin-left: 4.25rem;
 }
 /* TEXTO BIENVENIDA */
 .seccion-bienvenida p{
@@ -86,7 +86,7 @@
     line-height: 3rem;
     color: var(--color-letra-normal);
     margin-top: 2rem;
-    margin-left: 6rem;
+    margin-left: 4rem;
 }
 /* BOTON BIENVENIDA */
 .seccion-bienvenida a{
@@ -94,8 +94,8 @@
     font-size: 1.050rem;
     color: var(--color-destacado);
     border-color: var(--color-destacado);
-    margin-left: 6rem;
-    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
 }
 /* HOVER BOTON BIENVENIDA */
 .seccion-bienvenida a:hover{
@@ -105,9 +105,9 @@
 }
 /* IMAGEN BIENVENIDA */
 .seccion-bienvenida img{
-    height: 24rem;
+    height: 28rem;
     width: auto;
-    margin-top: 2.5rem;
+    margin-top: 3.5rem;
     box-shadow: 0.25rem 0.25rem 0.25rem 0;
 }
 
@@ -116,27 +116,31 @@
 /* SECCION OFRECER */
 .seccion-ofrecer{
     background: linear-gradient(var(--color-fondo-desierto),var(--color-fondo));
-    height: 27rem;
+    height: 115rem;
 }
 /* TITULO OFRECER */
 .seccion-ofrecer h1{
+    margin-top: 4rem;
     font-family: Grueso, serif;
     font-size: 2rem;
     color: var(--color-letra-normal);
 }
 /* TEXTO OFRECER */
 .seccion-ofrecer p{
+    margin-top: 1.5rem;
     font-family: Delgado, serif;
     color: var(--color-letra-normal);
     font-size: 1.5rem;
 }
 /* LEYENDAS OFRECER */
 .seccion-ofrecer h2{
+    margin-top: 0.8rem;
     font-family: Normal, serif;
     font-size: 1.5rem;
 }
 /* IMAGENES OFRECER */
 .seccion-ofrecer img{
+    margin-top: 2rem;
     border-radius: 0.5rem;
     height: 16.25rem;
     width: auto;
@@ -149,4 +153,93 @@
 /* LINKS HOVER OFRECER */
 .seccion-ofrecer a:hover{
     text-decoration: underline;
+}
+
+
+
+/* SECCION POPULARES TITULO */
+.seccion-populares h1{
+    margin-top: 8rem;
+    font-size: 1.5rem;
+}
+/* SECCION POPULARES SUBTITULO */
+.seccion-populares h2{
+    font-size: 1.3rem;
+    font-family: Normal, serif;
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--color-letra-normal);
+}
+/* SECCION POPULARES TEXTO */
+.seccion-populares p{
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+}
+/* SECCION POPULARES IMAGENES */
+.seccion-populares img{
+    height: 17.8rem;
+}
+/* SECCION POPULARES BOTON */
+.arrow-button{
+    display: flex;
+    font-family: Normal, serif;
+    color: var(--color-destacado);
+    background-color: transparent;
+    border-color: transparent;
+    padding: 10px 16px;
+    border-radius: 20px;
+    transition: all .3s ease;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+    font-size: 14px;
+}
+/* SECCION POPULARES BOTON FLECHA */
+.arrow-button > .arrow{
+    width: 6px;
+    height: 6px;
+    border-right: 2px solid var(--color-destacado);
+    border-bottom: 2px solid var(--color-destacado);
+    position: relative;
+    transform: rotate(-45deg);
+    margin: 0 6px;
+    transition: all .3s ease;
+}
+/* SECCION POPULARES BOTON ANTES */
+.arrow-button > .arrow::before{
+    display: block;
+    background-color: var(--color-fondo);
+    width: 3px;
+    transform-origin: bottom right;
+    height: 2px;
+    position: absolute;
+    opacity: 0;
+    bottom: calc(-2px / 2);
+    transform: rotate(45deg);
+    transition: all .3s ease;
+    content: "";
+    right: 0;
+}
+/* SECCION POPULARES BOTON FLECHA HOVER */
+.arrow-button:hover > .arrow{
+    transform: rotate(-45deg) translate(4px, 4px);
+    border-color: var(--color-fondo);
+}
+/* SECCION POPULARES BOTON HOVER ANTES */
+.arrow-button:hover > .arrow::before{
+    opacity: 1;
+    width: 8px;
+}
+/* SECCION POPULARES BOTON HOVER */
+.arrow-button:hover{
+    background-color: var(--color-destacado);
+    color: #fff;
+}
+/* SECCION POPULARES LINKS */
+.seccion-populares a{
+    text-decoration: none;
+}
+/* SECCION POPULARES LINKS HOVER */
+.seccion-populares a:hover{
+    text-decoration: none;
 }

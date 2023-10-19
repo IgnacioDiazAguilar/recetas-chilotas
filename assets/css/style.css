@@ -169,6 +169,7 @@
     font-weight: bold;
     text-decoration: underline;
     color: var(--color-letra-normal);
+    margin-top: 3.5rem;
 }
 /* SECCION POPULARES TEXTO */
 .seccion-populares p{
@@ -242,4 +243,30 @@
 /* SECCION POPULARES LINKS HOVER */
 .seccion-populares a:hover{
     text-decoration: none;
+}
+
+
+
+/* SECCION LIBRO */
+.seccion-libro{
+    height: 50rem;
+    background-color: var(--color-fondo);
+}
+/* SECCION LIBRO TITULO */
+.seccion-libro h1{
+    font-family: Grueso, serif;
+    font-size: 2rem;
+    color: var(--color-letra-normal);
+    margin-top: 8rem;
+}
+.seccion-libro p{
+    font-family: Delgado, serif;
+    font-size: 1.3rem;
+    color: var(--color-letra-normal);
+    line-height: 2.8rem;
+    margin-top: 3.5rem;
+}
+.seccion-libro img{
+    height: 35rem;
+    width: auto;
 }

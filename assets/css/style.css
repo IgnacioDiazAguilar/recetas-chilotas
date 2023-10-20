@@ -122,7 +122,7 @@
 .seccion-ofrecer h1{
     margin-top: 4rem;
     font-family: Grueso, serif;
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--color-letra-normal);
 }
 /* TEXTO OFRECER */
@@ -130,13 +130,13 @@
     margin-top: 1.5rem;
     font-family: Delgado, serif;
     color: var(--color-letra-normal);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 /* LEYENDAS OFRECER */
 .seccion-ofrecer h2{
     margin-top: 0.8rem;
     font-family: Normal, serif;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 /* IMAGENES OFRECER */
 .seccion-ofrecer img{
@@ -144,6 +144,7 @@
     border-radius: 0.5rem;
     height: 16.25rem;
     width: auto;
+    box-shadow: 0.25rem 0.25rem 0.25rem 0;
 }
 /* LINKS OFRECER */
 .seccion-ofrecer a{
@@ -160,11 +161,11 @@
 /* SECCION POPULARES TITULO */
 .seccion-populares h1{
     margin-top: 8rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 /* SECCION POPULARES SUBTITULO */
 .seccion-populares h2{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-family: Normal, serif;
     font-weight: bold;
     text-decoration: underline;
@@ -249,24 +250,30 @@
 
 /* SECCION LIBRO */
 .seccion-libro{
-    height: 50rem;
+    height: 49.5rem;
     background-color: var(--color-fondo);
 }
 /* SECCION LIBRO TITULO */
 .seccion-libro h1{
     font-family: Grueso, serif;
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--color-letra-normal);
     margin-top: 8rem;
 }
 .seccion-libro p{
     font-family: Delgado, serif;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     color: var(--color-letra-normal);
     line-height: 2.8rem;
     margin-top: 3.5rem;
 }
 .seccion-libro img{
-    height: 35rem;
+    height: 30rem;
     width: auto;
+}
+.seccion-libro hr{
+    height: 31rem;
+    width: 0.2rem;
+    background-color: var(--color-letra-normal);
+    margin-left: 7rem;
 }

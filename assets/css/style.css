@@ -31,7 +31,11 @@
     background-color: var(--color-fondo-desierto);
     box-shadow: 0 0 0.25rem 0;
 }
-
+/* NAVBAR ICONOS */
+.navbar img{
+    height: 1.5rem;
+    width: auto;
+}
 /* FUENTE NAVBAR */
 .navbar a{
     font-family: Normal, serif;
@@ -45,7 +49,7 @@
 }
 /* BUSCADOR */
 .navbar input{
-    width: 37rem;
+    width: 39rem;
     border-color: var(--color-destacado);
     border-width: 0.13rem;
 }
@@ -260,6 +264,7 @@
     color: var(--color-letra-normal);
     margin-top: 8rem;
 }
+/* SECCION LIBRO TEXTO */
 .seccion-libro p{
     font-family: Delgado, serif;
     font-size: 1.8rem;
@@ -267,13 +272,45 @@
     line-height: 2.8rem;
     margin-top: 3.5rem;
 }
+/* SECCION LIBRO IMAGEN */
 .seccion-libro img{
     height: 30rem;
     width: auto;
 }
+/* SECCION LIBRO LINEA */
 .seccion-libro hr{
     height: 31rem;
     width: 0.2rem;
     background-color: var(--color-letra-normal);
     margin-left: 7rem;
+}
+
+
+
+/* PIE DE PAGINA */
+.pie{
+    background-color: var(--color-fondo-desierto);
+    height: 10rem;
+    box-shadow: 0 0.25rem 0.25rem 0.25rem;
+}
+/* PIE DE PAGINA TEXTO */
+.pie p{
+    font-family: Delgado, serif;
+    font-weight: bolder;
+}
+/* PIE DE PAGINA SIPAM */
+.pie img{
+    height: 6rem;
+    width: auto;
+}
+/* PIE DE PAGINA REDES */
+.redes img{
+    float: left;
+    height: 3rem;
+    width: auto;
+    margin-left: 9rem;
+    margin-top: 1.2rem;
+    background-color: var(--color-destacado);
+    background-position: center;
+    border-radius: 30%;
 }

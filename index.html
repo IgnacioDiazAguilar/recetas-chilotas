@@ -13,7 +13,7 @@
     <title>Recetas Chilotas</title>
 
     <!-- FAVICON -->
-    <link rel="icon" type="image/x-icon" href="#">
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
 
     <!-- BOOTSTRAP CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.min.css">
@@ -25,7 +25,6 @@
 
     <!-- ENCABEZADO -->
     <header>
-
         <!-- BARRA DE NAVEGACION -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -33,14 +32,11 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <a class="navbar-brand ms-2" href="#">
-                        <img src="" alt="logo">
-                    </a>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link disabled ms-4" aria-current="page" href="#">
-                                <img src="assets/img/inicio.png" alt="Inicio" class="d-inline-block align-text-top">
-                                Inicio</a>
+                                <img src="assets/img/inicio.png" alt="Inicio">
+                                <span class="navbar-text">Inicio</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link ms-4" href="#">
@@ -65,12 +61,11 @@
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="¿Qué quieres comer hoy?" aria-label="Search">
-                        <button class="btn btn-outline-success me-1" type="submit">Buscar</button>
+                        <button class="btn btn-outline-success me-4" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
         </nav>
-
     </header>
 
 
@@ -210,16 +205,52 @@
                     <hr class="mt-5">
                 </div>
                 <div class="col-5">
-                    <a href="#">
-                        <div class="d-flex justify-content-center mt-5 ms-5">
+                    <div class="d-flex justify-content-center mt-5 ms-5">
+                        <a href="#">
                             <img src="assets/img/libro.png" alt="#">
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <section class="pie">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="d-flex justify-content-center mt-3">Este sitio web es apoyado por:</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="#">
+                                    <img src="assets/img/logo-sipam.png" alt="SIPAM">
+                                </a>
+                            </div>
+                    </div>
+                    <div class="col-6 redes">
+                        <p class="d-flex justify-content-center mt-3">Visita nuestras redes:</p>
+                        <div>
+                            <a href="#">
+                                <img src="assets/img/facebook.svg" alt="Facebook">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <img src="assets/img/instagram.svg" alt="Instagram">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <img src="assets/img/youtube.svg" alt="Youtube">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
 
     <!-- BOOTSTRAP JS -->
     <script src="assets/js/bootstrap/js/bootstrap.bundle.min.js"></script>

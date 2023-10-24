@@ -320,7 +320,6 @@
 
 /* SECCION FAQ */
 .seccion-faq{
-    height: 10rem;
     background-color: var(--color-fondo);
 }
 /* SECCION FAQ TITULO */
@@ -329,22 +328,32 @@
     color: var(--color-letra-normal);
 }
 /* SECCION FAQ TEXTO */
-.seccion-faq p{
+.texto-faq{
     font-family: Delgado, serif;
     font-size: 1.3rem;
     line-height: 2.5rem;
     text-align: justify;
     color: var(--color-letra-normal);
 }
-.seccion-faq button{
-    font-family: Normal, serif;
-    font-weight: bold;
-    color: var(--color-letra-normal);
-}
+/* SECCION FAQ ACORDION */
 .accordion{
     --bs-accordion-btn-bg: var(--color-fondo-desierto);
     --bs-accordion-active-bg: var(--color-destacado);
     --bs-accordion-active-color: var(--color-fondo);
-    --bs-accordion-border-width: 0.01rem;
+    --bs-accordion-border-width: 0.05rem;
     --bs-accordion-border-color: var(--color-letra-normal);
+}
+/* SECCION FAQ TEXTO ACORDION */
+.texto-acordion{
+    font-family: Delgado, serif;
+    font-size: 1.03rem;
+    line-height: 2.5rem;
+    text-align: justify;
+    color: var(--color-letra-normal);
+}
+/* SECCION FAQ TITULO BOTON ACORDION */
+.seccion-faq button{
+    font-family: Normal, serif;
+    font-weight: bold;
+    color: var(--color-letra-normal);
 }

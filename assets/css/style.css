@@ -72,7 +72,7 @@
 /* SECCION BIENVENIDA */
 .seccion-bienvenida{
     background-color: var(--color-fondo);
-    height: 37.5rem;
+    height: 36.5rem;
 }
 /* TITULO BIENVENIDA */
 .seccion-bienvenida h1{
@@ -80,7 +80,7 @@
     font-size: 3rem;
     line-height: 4rem;
     color: var(--color-letra-normal);
-    margin-top: 7.25rem;
+    margin-top: 5.25rem;
     margin-left: 4.25rem;
 }
 /* TEXTO BIENVENIDA */
@@ -89,7 +89,7 @@
     font-size: 1.5rem;
     line-height: 3rem;
     color: var(--color-letra-normal);
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-left: 4rem;
 }
 /* BOTON BIENVENIDA */
@@ -99,7 +99,7 @@
     color: var(--color-destacado);
     border-color: var(--color-destacado);
     margin-left: 4rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 /* HOVER BOTON BIENVENIDA */
 .seccion-bienvenida a:hover{
@@ -111,7 +111,7 @@
 .seccion-bienvenida img{
     height: 28rem;
     width: auto;
-    margin-top: 3.5rem;
+    margin-top: 3.8rem;
     box-shadow: 0.25rem 0.25rem 0.25rem 0;
 }
 
@@ -356,4 +356,19 @@
     font-family: Normal, serif;
     font-weight: bold;
     color: var(--color-letra-normal);
+}
+
+
+
+
+#platos:checked ~ #recetas .bebidas, #platos:checked ~ #recetas .postres{
+    display:none;
+}
+
+#bebidas:checked ~ #recetas .platos, #bebidas:checked ~ #recetas .postres{
+    display:none;
+}
+
+#postres:checked ~ #recetas .platos, #postres:checked ~ #recetas .bebidas{
+    display:none;
 }

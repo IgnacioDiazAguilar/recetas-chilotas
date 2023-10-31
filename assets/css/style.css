@@ -360,15 +360,73 @@
 
 
 
-
+/* SECCION MENU */
+.seccion-menu{
+    background-color: var(--color-fondo);
+}
+/* SECCION MENU RADIO */
 #platos:checked ~ #recetas .bebidas, #platos:checked ~ #recetas .postres{
     display:none;
 }
-
 #bebidas:checked ~ #recetas .platos, #bebidas:checked ~ #recetas .postres{
     display:none;
 }
-
 #postres:checked ~ #recetas .platos, #postres:checked ~ #recetas .bebidas{
     display:none;
+}
+/* SECCION MENU TITULO */
+.seccion-menu h1{
+    font-family: Grueso, serif;
+    color: var(--color-letra-normal);
+}
+/* SECCION MENU SUBTITULO */
+.seccion-menu h2{
+    font-family: Grueso, serif;
+    font-size: 1.5rem;
+    color: var(--color-letra-normal);
+    margin-top: 3rem;
+}
+/* SECCION MENU TEXTO TARJETAS */
+.seccion-menu p{
+    font-family: Delgado, serif;
+    color: var(--color-letra-normal);
+}
+/* SECCION MENU FILTRO */
+.seccion-menu label{
+    margin-top: 1.5rem;
+    margin-left: 0.8rem;
+    font-family: normal, serif;
+    color: var(--color-letra-normal);
+    background-color: var(--color-fondo-desierto);
+    border-color: var(--color-letra-normal);
+}
+/* SECCION MENU FILTRO CHECKED & HOVER */
+#todo:checked+label, #platos:checked+label, #bebidas:checked+label, #postres:checked+label{
+    color: var(--color-fondo);
+    background-color: var(--color-destacado);
+    border-color: var(--color-destacado);
+}
+#todo:hover+label, #platos:hover+label, #bebidas:hover+label, #postres:hover+label{
+    color: var(--color-fondo);
+    background-color: var(--color-destacado);
+    border-color: var(--color-destacado);
+}
+/* SECCION MENU TARJETAS */
+.card{
+    margin-top: 1rem;
+    box-shadow: 0.10rem 0.10rem 0.10rem 0;
+    background-color: var(--color-fondo-desierto);
+}
+/* SECCION MENU TARJETAS BOTON */
+.seccion-menu a{
+    font-family: Normal, serif;
+    background-color: transparent;
+    color: var(--color-destacado);
+    border-color: var(--color-destacado);
+}
+/* SECCION MENU TARJETAS BOTON HOVER */
+.seccion-menu a:hover{
+    color: var(--color-fondo);
+    background-color: var(--color-destacado);
+    border-color: var(--color-destacado);
 }

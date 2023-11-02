@@ -430,3 +430,57 @@
     background-color: var(--color-destacado);
     border-color: var(--color-destacado);
 }
+
+
+
+/* SECCION RECETA */
+.seccion-receta{
+    height: 100rem;
+}
+/* SECCION RECETA BREADCRUMB */
+.seccion-receta li, .seccion-receta li > a{
+    font-family: Normal, serif;
+    text-decoration: none;
+    color: var(--color-letra-normal);
+}
+/* SECCION RECETA LINK HOVER */
+.seccion-receta a:hover{
+    text-decoration: underline;
+}
+/* SECCION RECETA FLECHA */
+.flecha {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+}
+/* SECCION RECETA TÍTULO */
+.seccion-receta h1{
+    font-family: Grueso, serif;
+    color: var(--color-letra-normal);
+    font-size: 3rem;
+}
+/* SECCION RECETA TEXTO */
+.seccion-receta p{
+    font-family: Delgado, serif;
+    color: var(--color-letra-normal);
+    font-size: 1.2rem;
+}
+/*SECCION RECETA IMAGEN */
+.seccion-receta img{
+    height: 34.5rem;
+    width: auto;
+}
+.seccion-receta hr{
+    border-width: 0.2rem;
+    border-radius: 5rem;
+    width: 97%;
+    color: var(--color-letra-normal);
+    opacity: 100%;
+}
+
+.indicaciones{
+    display: flex;
+    justify-content: space-between;
+}

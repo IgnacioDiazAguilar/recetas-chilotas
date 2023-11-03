@@ -435,7 +435,7 @@
 
 /* SECCION RECETA */
 .seccion-receta{
-    height: 100rem;
+    height: 159rem;
 }
 /* SECCION RECETA BREADCRUMB */
 .seccion-receta li, .seccion-receta li > a{
@@ -455,11 +455,33 @@
     padding: 3px;
     transform: rotate(-45deg);
 }
-/* SECCION RECETA TÍTULO */
+/* SECCION RECETA TÍTULOS */
 .seccion-receta h1{
     font-family: Grueso, serif;
     color: var(--color-letra-normal);
     font-size: 3rem;
+}
+.seccion-receta h2{
+    font-family: Normal, serif;
+    font-weight: bold;
+    color: var(--color-letra-normal);
+    font-size: 1.7rem;
+}
+.seccion-receta h3{
+    font-family: Normal, serif;
+    font-weight: bold;
+    color: var(--color-letra-normal);
+    font-size: 1.5rem;
+}
+.seccion-receta h4{
+    font-family: Normal, serif;
+    color: var(--color-letra-normal);
+    font-size: 1.28rem;
+    margin-top: 0.5rem;
+}
+.seccion-receta h5{
+    font-family: Normal, serif;
+    color: var(--color-letra-normal);
 }
 /* SECCION RECETA TEXTO */
 .seccion-receta p{
@@ -467,20 +489,25 @@
     color: var(--color-letra-normal);
     font-size: 1.2rem;
 }
-/*SECCION RECETA IMAGEN */
+/* SECCION RECETA IMAGEN */
 .seccion-receta img{
     height: 34.5rem;
     width: auto;
 }
+/* SECCION RECETA ICONOS */
+.indicaciones > img{
+    height: 4rem;
+    width: auto;
+}
+.ingredientes > img{
+    height: 2.8rem;
+    width: auto;
+}
+/* SECCION RECETA HR */
 .seccion-receta hr{
     border-width: 0.2rem;
     border-radius: 5rem;
     width: 97%;
     color: var(--color-letra-normal);
     opacity: 100%;
-}
-
-.indicaciones{
-    display: flex;
-    justify-content: space-between;
 }

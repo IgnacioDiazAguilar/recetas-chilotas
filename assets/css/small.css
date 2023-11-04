@@ -1,0 +1,29 @@
+@media(max-width: 576px){
+    /* NAVBAR BUSCADOR */
+    .navbar input{
+        width: 28.7rem;
+    }
+
+    .seccion-bienvenida{
+        height: 30rem;
+    }
+    .seccion-bienvenida h1{
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 3rem;
+        margin-left: 0;
+    }
+    .seccion-bienvenida p{
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        margin-left: 0;
+    }
+    .seccion-bienvenida img{
+        display: none;
+    }
+    .seccion-bienvenida a{
+        margin-top: 1rem;
+        margin-left: 13.5rem;
+    }
+}

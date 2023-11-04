@@ -120,7 +120,7 @@
 /* SECCION OFRECER */
 .seccion-ofrecer{
     background: linear-gradient(var(--color-fondo-desierto),var(--color-fondo));
-    height: 115rem;
+    height: 118rem;
 }
 /* TITULO OFRECER */
 .seccion-ofrecer h1{
@@ -306,11 +306,10 @@
 }
 /* PIE DE PAGINA REDES */
 .redes img{
-    float: left;
-    height: 3rem;
+    height: 3.5rem;
     width: auto;
-    margin-left: 9rem;
-    margin-top: 1.2rem;
+    margin-left: 6rem;
+    margin-top: 1.5rem;
     background-color: var(--color-destacado);
     background-position: center;
     border-radius: 30%;

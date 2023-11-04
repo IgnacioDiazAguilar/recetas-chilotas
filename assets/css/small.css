@@ -4,26 +4,120 @@
         width: 28.7rem;
     }
 
+
+
+    /* SECCION BIENVENIDA */
     .seccion-bienvenida{
         height: 30rem;
     }
+    /* SECCION BIENVENIDA TITULO */
     .seccion-bienvenida h1{
         text-align: center;
         font-size: 2rem;
         margin-top: 3rem;
         margin-left: 0;
     }
+    /* SECCION BIENVENIDA TEXTO */
     .seccion-bienvenida p{
         text-align: center;
         font-size: 1.2rem;
         margin-top: 1.5rem;
         margin-left: 0;
     }
+    /* SECCION BIENVENIDA IMAGEN */
     .seccion-bienvenida img{
         display: none;
     }
+    /* SECCION BIENVENIDA BOTON */
     .seccion-bienvenida a{
         margin-top: 1rem;
         margin-left: 13.5rem;
+    }
+
+
+
+    /* SECCION OFRECER */
+    .seccion-ofrecer{
+        height: 145rem;
+    }
+    /* SECCION OFRECER TITULO */
+    .seccion-ofrecer h1{
+        font-size: 2rem;
+        margin-top: 3.5rem;
+    }
+    /* SECCION OFRECER TEXTO */
+    .seccion-ofrecer p{
+        font-size: 1.3rem;
+    }
+    /* SECCION OFRECER IMAGEN */
+    .seccion-ofrecer img{
+        margin-right: 1.8rem;
+        height: 5.5rem;
+    }
+    /* SECCION OFRECER LEYENDA */
+    .seccion-ofrecer h2{
+        font-size: 1.3rem;
+    }
+
+
+
+    /* SECCION POPULARES TITULO */
+    .seccion-populares h1{
+        font-size: 1.2rem;
+    }
+    /* SECCION POPULARES IMAGEN */
+    .seccion-populares img{
+        margin-left: 5.5rem;
+        height: 14rem;
+    }
+    /* SECCION POPULARES TITULO */
+    .seccion-populares h2{
+        font-size: 1.3rem;
+    }
+    /* SECCION POPULARES TEXTO */
+    .seccion-populares p{
+        font-size: 1rem;
+        text-align: justify;
+    }
+    /* SECCION POPULARES BOTON */
+    .seccion-populares button{
+        margin-left: 1.7rem;
+    }
+
+
+
+
+    /* SECCION LIBRO */
+    .seccion-libro{
+        height: 45rem;
+    }
+    /* SECCION LIBRO TITULO */
+    .seccion-libro h1{
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2rem;
+    }
+    /* SECCION LIBRO TEXTO */
+    .seccion-libro p{
+        line-height: 1.5rem;
+        font-size: 1rem;
+    }
+    /* SECCION LIBRO HR */
+    .seccion-libro hr{
+        display: none;
+    }
+    /* SECCION LIBRO IMAGEN */
+    .seccion-libro img{
+        margin-left: 12.5rem;
+        margin-top: 1rem;
+        height: 15rem;
+    }
+
+
+
+    /* FOOTER IMAGEN REDES */
+    .redes img{
+        height: 3rem;
+        margin-left: 0.5rem;
     }
 }

@@ -120,4 +120,38 @@
         height: 3rem;
         margin-left: 0.5rem;
     }
+    /* FOOTER NOSOTROS */
+    .small{
+        margin-top: 3rem;
+    }
+
+
+    /* SECCION MENU TEXTO */
+    .seccion-menu p{
+        display: none;
+    }
+
+    /* SECCION RECETA */
+    .seccion-receta{
+        height: 163rem;
+    }
+    /* SECCION RECETA IMAGEN */
+    .seccion-receta img{
+        height: 22rem;
+    }
+    /* SECCION RECETA ICONOS */
+    .indicaciones img{
+        height: 4rem;
+    }
+    .ingredientes img{
+        height: 2rem;
+    }
+    /* SECCION RECETA HR */
+    .seccion-receta hr{
+        width: 33rem;
+    }
+    /* SECCION RECETA TITULO */
+    .seccion-receta h2{
+        font-size: 1.3rem;
+    }
 }

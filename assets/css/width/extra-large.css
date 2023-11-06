@@ -1,0 +1,111 @@
+@media (max-width: 1200px){
+    /* NAVBAR BUSCADOR */
+    .navbar input{
+        width: 20.5rem;
+    }
+
+
+
+    /* SECCION BIENVENIDA */
+    .seccion-bienvenida{
+        height: 36rem;
+    }
+    /* SECCION BIENVENIDA TITULO */
+    .seccion-bienvenida h1{
+        font-size: 2rem;
+    }
+    /* SECCION BIENVENIDA TEXTO */
+    .seccion-bienvenida p{
+        margin-top: 3rem;
+        font-size: 1.2rem;
+    }
+    /* SECCION BIENVENIDA IMAGEN */
+    .seccion-bienvenida img{
+        margin-top: 6.5rem;
+        height: 23.5rem;
+    }
+    /* SECCION BIENVENIDA BOTON */
+    .seccion-bienvenida a{
+        margin-top: 1.2rem;
+    }
+
+
+
+
+    .seccion-ofrecer{
+        height: 110rem;
+    }
+    /* SECCION OFRECER TITULO */
+    .seccion-ofrecer h1{
+        font-size: 2.5rem;
+    }
+    /* SECCION OFRECER IMAGEN */
+    .seccion-ofrecer img{
+        height: 12.5rem;
+    }
+
+
+
+    /* SECCION POPULARES TITULO */
+    .seccion-populares h1{
+        font-size: 1.65rem;
+    }
+    /* SECCION POPULARES SUBTITULO */
+    .seccion-populares h2{
+        font-size: 1.4rem;
+    }
+    /* SECCION POPULARES TEXTO */
+    .seccion-populares p{
+        font-size: 1.15rem;
+    }
+    /* SECCION POPULARES IMAGEN */
+    .seccion-populares img{
+        margin-left: 0;
+        height: 16.5rem;
+    }
+
+
+
+    /* SECCION LIBRO */
+    .seccion-libro{
+        height: 49rem;
+    }
+    /* SECCION LIBRO TITULO */
+    .seccion-libro h1{
+        font-size: 2.7rem;
+    }
+    /* SECCION LIBRO TEXTO */
+    .seccion-libro p{
+        font-size: 1.5rem;
+    }
+    /* SECCION LIBRO IMAGEN */
+    .seccion-libro img{
+        margin-top: 1rem;
+    }
+
+
+
+    /* PIE DE PAGINA REDES */
+    .redes img{
+        margin-left: 3.5rem;
+    }
+
+
+
+    /* SECCION RECETA */
+    .seccion-receta{
+        height: 157rem;
+    }
+
+
+    .seccion-receta img{
+        height: 29.7rem;
+    }
+    .indicaciones img{
+        height: 3.5rem;
+    }
+
+    .ingredientes img{
+        height: 3.3rem;
+    }
+}

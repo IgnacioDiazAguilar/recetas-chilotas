@@ -96,15 +96,14 @@
     .seccion-receta{
         height: 157rem;
     }
-
-
+    /* SECCION RECETA IMAGEN */
     .seccion-receta img{
         height: 29.7rem;
     }
+    /* SECCION RECETA ICONOS */
     .indicaciones img{
         height: 3.5rem;
     }
-
     .ingredientes img{
         height: 3.3rem;
     }

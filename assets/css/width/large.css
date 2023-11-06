@@ -1,0 +1,112 @@
+@media (min-width: 991px) and (max-width: 993px){
+    /* NAVBAR BUSCADOR TEXTO */
+    .navbar ::placeholder{
+        color: transparent;
+    }
+}
+
+@media (max-width: 992px){
+    /* NAVBAR BUSCADOR */
+    .navbar input{
+        width: 7.5rem;
+    }
+
+
+
+    /* SECCION BIENVENIDA */
+    .seccion-bienvenida{
+        height: 33rem;
+    }
+    /* SECCION BIENVENIDA TITULO */
+    .seccion-bienvenida h1{
+        margin-left: 1.5rem;
+        margin-top: 3rem;
+        font-size: 2.2rem;
+    }
+    /* SECCION BIENVENIDA TEXTO */
+    .seccion-bienvenida p{
+        margin-top: 1.5rem;
+        margin-left: 1.5rem;
+    }
+    /* SECCION BIENVENIDO BOTON */
+    .seccion-bienvenida a{
+        margin-left: 1.5rem;
+    }
+    /* SECCION BIENVENIDA IMAGEN */
+    .seccion-bienvenida img{
+        margin-right: 1.5rem;
+        height: 20rem;
+    }
+
+
+
+    /* SECCION OFRECER */
+    .seccion-ofrecer{
+        height: 124rem;
+    }
+    /* SECCION OFRECER IMAGEN */
+    .seccion-ofrecer img{
+        height: 11rem;
+    }
+
+
+
+    /* SECCION POPULARES ICONOS */
+    .seccion-populares img{
+        height: 14rem;
+    }
+    /* SECCION POPULARES SUBTITULO */
+    .seccion-populares h2{
+        font-size: 1.4rem;
+        margin-left: 7.5rem;
+    }
+    /* SECCION POPULARES TEXTO */
+    .seccion-populares p{
+        font-size: 1rem;
+        margin-left: 7.5rem;
+    }
+
+
+
+    /* SECCION LIBRO */
+    .seccion-libro{
+        height: 48rem;
+    }
+    /* SECCION LIBRO TITULO */
+    .seccion-libro h1{
+        font-size: 2.2rem;
+    }
+    /* SECCION LIBRO TEXTO */
+    .seccion-libro p{
+        font-size: 1.25rem;
+    }
+    /* SECCION LIBRO HR */
+    .seccion-libro hr{
+        margin-left: 3rem;
+    }
+    /* SECCION LIBRO IMAGEN */
+    .seccion-libro img{
+        margin-right: 2.5rem;
+    }
+
+
+
+    /* PIE DE PAGINA REDES */
+    .redes img{
+        margin-left: 2.5rem;
+    }
+
+
+
+    /* SECCION RECETA IMAGEN */
+    .seccion-receta img{
+        height: 24.9rem;
+    }
+    /* SECCION RECETA ICONOS */
+    .indicaciones img{
+        height: 3rem;
+    }
+    .ingredientes img{
+        height: 2.5rem;
+    }
+}

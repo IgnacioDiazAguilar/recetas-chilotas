@@ -1,0 +1,40 @@
+@media (max-width: 1400px){
+    /* NAVBAR BUSCADOR */
+    .navbar input{
+        width: 32rem;
+    }
+
+
+
+    /* SECCION BIENVENIDA IMAGEN */
+    .seccion-bienvenida img{
+        margin-top: 5.5rem;
+        height: 26rem;
+    }
+
+
+
+    /* SECCION POPULARES SUBTITULOS */
+    .seccion-populares h2{
+        margin-left: 2rem;
+    }
+    /* SECCION POPULARES TEXTO */
+    .seccion-populares p{
+        margin-left: 2rem;
+    }
+
+
+
+    /* SECCION LIBRO TEXTO */
+    .seccion-libro p{
+        margin-top: 3rem;
+    }
+
+
+
+    /* PIE DE PÁGINA REDES */
+    .redes img{
+        margin-left: 5rem;
+    }
+
+}

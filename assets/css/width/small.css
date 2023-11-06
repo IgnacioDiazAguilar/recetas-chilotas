@@ -126,9 +126,13 @@
     }
 
 
+
     /* SECCION MENU TEXTO */
     .seccion-menu p{
-        display: none;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
     }
 
     /* SECCION RECETA */

@@ -5,10 +5,12 @@
     <!-- METADATOS -->
     <meta charset="UTF-8">
     <meta name="author" content="Ignacio Díaz">
+    <meta name="description" content="#">
+    <meta name="keywords" content="#">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- TITULO -->
-    <title>Sobre Nosotros | Recetas Chilotas</title>
+    <title>Colaborar | Recetas Chilotas</title>
 
     <!-- FAVICON -->
     <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
@@ -17,6 +19,12 @@
     <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- RESPONSIVE -->
+    <link rel="stylesheet" href="assets/css/width/extra-extra-large.css">
+    <link rel="stylesheet" href="assets/css/width/extra-large.css">
+    <link rel="stylesheet" href="assets/css/width/large.css">
+    <link rel="stylesheet" href="assets/css/width/medium.css">
+    <link rel="stylesheet" href="assets/css/width/small.css">
 
 </head>
 <body>
@@ -31,27 +39,27 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link ms-4" aria-current="page" href="index.html">
+                            <a class="nav-link ms-lg-4" aria-current="page" href="index.html">
                                 <img src="assets/img/inicio.png" alt="Inicio">
                                 Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ms-4" href="menu.html">
+                            <a class="nav-link ms-lg-4" href="menu.html">
                                 <img src="assets/img/menu.png" alt="Menu" class="d-inline-block align-text-top">
                                 Menú</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ms-4" href="nosotros.html">
+                            <a class="nav-link ms-lg-4" href="nosotros.html">
                                 <img src="assets/img/nosotros.png" alt="Nosotros" class="d-inline-block align-text-top">
                                 Sobre Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ms-4" href="contacto.html">
+                            <a class="nav-link ms-lg-4" href="contacto.html">
                                 <img src="assets/img/contacto.png" alt="Contacto" class="d-inline-block align-text-top">
                                 Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled ms-4" href="colaborar.html">
+                            <a class="nav-link disabled ms-lg-4" href="colaborar.html">
                                 <img src="assets/img/colaborar.png" alt="Colaborar" class="d-inline-block align-text-top">
                                 Colaborar</a>
                         </li>
@@ -65,8 +73,116 @@
         </nav>
     </header>
 
+    <!-- FORMULARIO -->
+    <section class="seccion-formulario seccion-formulario2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <h1 class="text-center mt-5">¡Colabora con Nosotros!</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <p class="mt-4">Si eres conocedor/a de alguna receta típica de la gastronomía Chilota, puedes enviarnosla
+                        para que nosotros la publiquemos en nuestra página, y de ese modo, contribuirás a la
+                        preservación de esta exquisita cultura.
+                        <br>
+                        <br>
+                        Procura rellenar todos los campos sin errores, especialmente en tus datos personales
+                        para dar los créditos correspondientes al momento de publicar la receta.</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <form class="colaborar-form">
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">Nombre y Apellido</span>
+                            <input type="text" aria-label="First name" class="form-control" placeholder="Nombre">
+                            <input type="text" aria-label="Last name" class="form-control" placeholder="Apellido">
+                        </div>
+                        <div class="mb-4">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-4">
+                            <select class="form-select" aria-label="Small select example">
+                                <option selected>¿Qué clase de receta es?</option>
+                                <option value="1">Plato</option>
+                                <option value="2">Bebida</option>
+                                <option value="3">Postre</option>
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <label for="NombreReceta" class="form-label">Nombre de la Receta</label>
+                            <input type="email" class="form-control" id="NombreReceta" aria-describedby="emailHelp">
+                        </div>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">Tiempos y Raciones</span>
+                            <input type="text" aria-label="First name" class="form-control" placeholder="Preparación">
+                            <input type="text" aria-label="Last name" class="form-control" placeholder="Cocción">
+                            <input type="text" aria-label="Last name" class="form-control" placeholder="Porciones">
+                        </div>
+                        <div class="mb-4">
+                            <label for="exampleFormControlTextarea1" class="form-label">Ingrese los Ingredientes</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="mb-4">
+                            <label for="PasoAPaso" class="form-label">Describa el Paso a Paso</label>
+                            <textarea class="form-control" id="PasoAPaso" rows="3"></textarea>
+                        </div>
+                        <div class="mb-4">
+                            <label for="formFile" class="form-label">Imagen de Referencia (opcional)</label>
+                            <input class="form-control" type="file" id="formFile">
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-primary mt-2">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- BOOTSTRAP JS -->
-    <script src="assets/js/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <section class="pie">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center mt-2">
+                        <p>Este sitio web es apoyado por:</p>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center mt-2">
+                        <p>Visita nuestras redes:</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <a href="https://sipamchiloe.minagri.gob.cl/" class="d-flex justify-content-center">
+                            <img src="assets/img/logo-sipam.png" alt="SIPAM">
+                        </a>
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 redes">
+                        <a href="https://www.facebook.com">
+                            <img src="assets/img/facebook.svg" alt="Facebook">
+                        </a>
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 redes">
+                        <a href="https://www.instagram.com">
+                            <img src="assets/img/instagram.svg" alt="Instagram">
+                        </a>
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 redes">
+                        <div>
+                            <a href="https://www.youtube.com/">
+                                <img src="assets/img/youtube.svg" alt="YouTube">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+<!-- BOOTSTRAP JS -->
+<script src="assets/js/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -128,6 +128,10 @@
     .seccion-formulario{
         height: 47rem;
     }
+    /* SECCION FORMULARIO COLABO. */
+    .seccion-formulario2{
+        height:80rem;
+    }
     /* SECCION FORMULARIO TEXTO */
     .seccion-formulario p{
         text-align: center;
@@ -137,5 +141,9 @@
     /* SECCION FORMULARIO FORM */
     .seccion-formulario form{
         margin-top: 2.5rem;
+    }
+    .colaborar-form{
+        margin-left: 5%;
+        width: 90%;
     }
 }

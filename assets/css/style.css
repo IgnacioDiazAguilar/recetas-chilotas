@@ -517,6 +517,10 @@
 .seccion-formulario{
     height: 35.5rem;
 }
+/* SECCION FORMULARIO COLABO. */
+.seccion-formulario2{
+    height: 78rem;
+}
 /* SECCION FORMULARIO TITULO */
 .seccion-formulario h1{
     font-size: 3.2rem;
@@ -547,13 +551,26 @@
     border-color: var(--color-destacado);
 }
 /* SECCION FORMULARIO FORM ESTILO */
-.seccion-formulario input, .seccion-formulario textarea{
+.seccion-formulario input, .seccion-formulario textarea, .seccion-formulario select{
     font-family: Delgado, serif;
     border-color: var(--color-destacado);
 }
-.seccion-formulario span, label{
+/* SECCION FORMULARIO SPAN */
+.seccion-formulario span{
+    font-family: Delgado, serif;
+    background-color: var(--color-fondo-desierto);
+    border-color: var(--color-destacado);
+}
+/* SECCION FORMULARIO LABEL */
+.seccion-formulario label{
     font-family: Delgado, serif;
 }
-.seccion-formulario form{
-    margin-top: 5rem;
+/* SECCION FORMULARIO FORM */
+.colaborar-form{
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 2rem;
+}
+.contacto-form{
+    width: 100%;
 }

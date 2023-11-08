@@ -3,6 +3,9 @@
     .navbar ::placeholder{
         color: transparent;
     }
+    .input-group ::placeholder{
+        color: transparent;
+    }
 }
 
 @media (max-width: 992px){
@@ -108,5 +111,17 @@
     }
     .ingredientes img{
         height: 2.5rem;
+    }
+
+
+
+    /* SECCION FORMULARIO COLABO. */
+    .seccion-formulario2{
+        height:81rem;
+    }
+    /* COLABO FORM ESTILO */
+    .colaborar-form{
+        margin-left: 15%;
+        width: 70%;
     }
 }

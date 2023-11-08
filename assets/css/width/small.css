@@ -165,4 +165,13 @@
     .seccion-formulario{
         height: 50rem;
     }
+    /* SECCION FORMULARIO COLABO. */
+    .seccion-formulario2{
+        height:87rem;
+    }
+    /* COLABO FORM ESTILO */
+    .colaborar-form{
+        margin-left: 0;
+        width: 100%;
+    }
 }

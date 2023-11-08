@@ -510,3 +510,50 @@
     color: var(--color-letra-normal);
     opacity: 100%;
 }
+
+
+
+/* SECCION FORMULARIO */
+.seccion-formulario{
+    height: 35.5rem;
+}
+/* SECCION FORMULARIO TITULO */
+.seccion-formulario h1{
+    font-size: 3.2rem;
+    color: var(--color-letra-normal);
+    font-family: Grueso, serif;
+}
+/* SECCION FORMULARIO TEXTO */
+.seccion-formulario p{
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    color: var(--color-letra-normal);
+    font-family: Delgado, serif;
+}
+/* SECCION FORMULARIO BOTON */
+.seccion-formulario button{
+    font-family: Normal, serif;
+    font-size: 1.050rem;
+    background-color: transparent;
+    color: var(--color-destacado);
+    border-color: var(--color-destacado);
+}
+/* SECCION FORMULARIO BOTON HOVER */
+.seccion-formulario button:hover{
+    font-family: Normal, serif;
+    font-size: 1.050rem;
+    background-color: var(--color-destacado);
+    color: var(--color-fondo);
+    border-color: var(--color-destacado);
+}
+/* SECCION FORMULARIO FORM ESTILO */
+.seccion-formulario input, .seccion-formulario textarea{
+    font-family: Delgado, serif;
+    border-color: var(--color-destacado);
+}
+.seccion-formulario span, label{
+    font-family: Delgado, serif;
+}
+.seccion-formulario form{
+    margin-top: 5rem;
+}

@@ -121,4 +121,21 @@
         -webkit-line-clamp: 4;
         overflow: hidden;
     }
+
+
+
+    /* SECCION FORMULARIO */
+    .seccion-formulario{
+        height: 47rem;
+    }
+    /* SECCION FORMULARIO TEXTO */
+    .seccion-formulario p{
+        text-align: center;
+        margin-top: 2.5rem;
+        font-size: 1.2rem;
+    }
+    /* SECCION FORMULARIO FORM */
+    .seccion-formulario form{
+        margin-top: 2.5rem;
+    }
 }

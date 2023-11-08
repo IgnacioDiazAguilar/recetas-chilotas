@@ -158,4 +158,11 @@
     .seccion-receta h2{
         font-size: 1.3rem;
     }
+
+
+
+    /* SECCION FORMULARIO */
+    .seccion-formulario{
+        height: 50rem;
+    }
 }
